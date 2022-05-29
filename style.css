@@ -1,0 +1,370 @@
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 72px;
+  box-shadow: 0px 0px 16px rgb(38 38 38 / 16%);
+  background-color: white;
+}
+
+
+.wrapper {
+  width: 768px;
+  max-width: 100%;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin: 0 auto;
+  height: 100%;
+}
+.header_wrapper {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+.header-logo {
+  display: flex;
+}
+
+.header_btns {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.header_button_sighn_inn {
+  border: 1px solid #e0e0e0;
+  border-radius: 2px;
+  background-color: white;
+  padding: 14px 20px;
+  font-weight: 700;
+  font-size: 13px;
+  margin-right: 16px;
+}
+
+.header_button_basket {
+  width: 40px;
+  height: 72px;
+  background-color: white;
+  border: none;
+}
+
+.search {
+  margin-top: 128px;
+}
+
+form {
+  margin: 0;
+}
+
+.serch-form_field {
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid rgba(117, 117, 117, 0.3);
+  color: rgba(98, 98, 98, 0.5);
+  font-size: 16px;
+  line-height: 24px;
+}
+.footer {
+  width: 100%;
+  padding: 5px;
+  left: 0;
+  height: 552px; 
+  background-color: #262626;
+  max-width: 100%;
+  margin-left: 0;
+  margin-top: 10px;
+}
+.wrapper {
+    width: 768px;
+    max-width: 100%;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: 0 auto;
+    height: 100%;
+  }
+  .log-box{
+background-color: 262626;
+padding-top: 56px;
+padding-bottom: 40px;
+border: 0;
+height: 56.38px;
+border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  }
+
+  .card img{
+    
+    max-width: 100%;
+  }
+  .footer-box {
+padding: 20px;
+background-color: 262626;
+height: 190px;
+border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+color: white;
+  }
+
+  .row {
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -8px;
+    margin-left: -8px;
+}
+.footer-download{
+  display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+   
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+.footer-bottom p{
+  padding: 10px;
+  background-color: 262626;
+  
+  
+}
+a {
+  text-decoration: none;
+}
+.footer-down-inf1, .footer-down-inf2, .footer-down-inf3 {
+  font-size: 11px;
+  line-height: 13px;
+  color: white;
+}
+
+body{
+    background-color:white ;
+  
+    margin: 0;
+
+}
+
+.block img{
+  width: 360px;
+  height: 256px;
+  max-width: 100%;
+  margin-left: -10px;
+}
+
+.cafename {
+    font-size: 16px;
+    line-height: 24px;
+    color: #1d1d1d;
+    margin-bottom: 4px;
+    text-align: left;
+}
+a {
+    text-decoration: none;
+}
+.cafefood {
+    font-size: 14px;
+    line-height: 21px;
+    color: #626262;
+    margin-bottom: 4px;
+    text-align: left;
+}
+.cafeprice {
+    font-family: "Roboto",sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    color: #626262;
+    text-align: left;
+}
+.cafetime {
+    font-size: 13px;
+    line-height: 21px;
+    color: #1d1d1d;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.block{
+  padding: 10px;
+  margin: auto;
+}
+
+
+.block{
+  width: 295px;
+  max-width: 100%;
+  height: 366px;
+  background-color: white; 
+  margin: auto;
+  padding: 8px;
+} 
+
+.footer-download img{
+  padding: 20px;
+}
+
+.footer-bottom{
+  padding: 15px;
+}
+
+.lang-selector-container {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  margin-bottom: 24px;
+  margin-left: -16px;
+}
+
+.hashtag::before {
+  content: '#';
+  color: green;
+}
+
+.footer a{
+  color: white;
+}
+.socials-symbols {
+  display: flex;
+  gap: 10px;
+  padding-top: 6px;
+  padding-bottom: 13px;
+}
+.socials-symbols{
+padding: 20px;
+margin: 0px 0px 0px -20px;
+}
+
+.headermid{
+  width: 100%;
+  padding: 5px;
+  left: 0;
+  height: 364px; 
+  background-image:url(https://c-c-6ypo8.github.io/ht_Basics/ubereats/assets/restaurant/s-header.jpg);
+  margin-left: 0;
+  margin-top: 10px;
+  background-size: cover;
+  background-position: center;}
+
+  .traktir{
+    width: 389px; 
+    height:204px;
+    background-color: white;
+    margin-top: 110px;
+  }
+
+  .bottommenu{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    border-bottom: 1px solid rgba(117, 117, 117, 0.3);
+  }
+  .bottommenucontent{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: flex-end;
+padding: 20px;
+  }
+
+  .bottommenucontent p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #626262;
+  }
+
+  .Pushkinmenutitle{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px; 
+    color: #1D1D1D;
+    margin-left: 8px;
+  }
+
+  .card{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8px;
+    padding-right: 0px;
+    padding-top: 0px;
+    border: 1px solid rgba(117, 117, 117, 0.2);
+    border-radius: 2px;
+    background-color:white;
+    }
+.container_img img{
+  max-width: 100%;
+  max-height: 100%;
+  height: 160px;
+  
+  
+}
+
+.container_img {
+background-color: white;
+ overflow: hidden;
+ flex-basis: 34%;
+ padding: 0px;
+ width: 170px;
+ height: 120px;
+ max-height: 100%;
+}
+.container{
+ margin-bottom: 40px; 
+}
+
+.buttonstring{
+display: flex;
+justify-content: space-between;
+margin-top: 50px;
+}
+.buttonstring button{
+background-color: black;
+border-radius: 5mm;
+color: #FFFFFF;
+width: 100px;
+height: 32px;
+margin-right: 38px;
+margin-top: -5px;
+
+}
+
+.traktir{
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+
+
+color: #1D1D1D;
+}
+.buttonstring p1{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: #626262;
+margin-left: 38px;
+}
+
+.traktir p{
+margin: 60px 38px 60px 38px;
+padding-top: 38px;
+}
